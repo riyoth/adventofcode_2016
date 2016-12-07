@@ -20,4 +20,9 @@ class Testday1 < Test::Unit::TestCase
     assert_equal expected, 12
   end
 
+  def test_part2_ex1
+    d = Day1.new
+    expected = d.part2('R8, R4, R4, R8')
+    assert_equal expected, 4
+  end
 end
